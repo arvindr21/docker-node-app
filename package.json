@@ -1,0 +1,14 @@
+{
+  "name": "docker-node-app",
+  "version": "1.0.0",
+  "description": "A node.js app that runs inside a docker contianer but lives outside",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/arvindr21/docker-node-app",
+  "keywords": ["docker", "nodejs", "dev", "hotreloading"],
+  "author": "Arvind Ravulavaru <arvind.ravulavaru@gmail.com> (http://thejackalofjavascript.com)",
+  "license": "MIT"
+}
